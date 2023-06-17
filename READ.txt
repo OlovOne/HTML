@@ -1,0 +1,8 @@
+16/06/2023 22:03
+Criação do index e style, contendo as principais configuração para o começo do projeto de 
+e-comecer. 
+Style - middle - cente - left - right, footer, topnav, banner.
+html - padrão.
+
+16/06/2023 00:35 
+Criaçaõ da barra de pesquisa(apenas front-end).
