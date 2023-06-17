@@ -1,0 +1,36 @@
+.topnav{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+}
+.topnav a{
+    display: flex;
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    color: aliceblue;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+.middle{
+    width: 100%;
+    display: flex;
+}
+.middle .left, .right{
+    float: left;
+    background-color: blueviolet;
+    width: 10%;
+}
+.middle .center{
+    float: left;
+    width: 80%;
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: darkseagreen;
+}
