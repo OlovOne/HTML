@@ -1,4 +1,4 @@
-window.onload = function(){
+
 let ul = document.getElementById("list");
 let li = document.createElement("li");
 
@@ -36,4 +36,3 @@ divBook.appendChild(divInfo);
 
 li.appendChild(divBook);
 ul.appendChild(li);
-}
