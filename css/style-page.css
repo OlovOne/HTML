@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 19px;
+    font-size: large;
+}
+.menu-sus{
+    width: 100px;
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.menu-sus a{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: large;
+}
+.menu-sus li{
+    padding-top: 5px;
+    text-align: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.init, .middle{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: black;
+}
+.title{
+    color: white;
+    align-self: flex-start;
+    position: absolute;
+    margin: 15vh;
+    margin-left: 7.5vw;
+    text-align: center;
+}
+.circule-img{
+    width: 15vw;
+    height: 27vh;
+    float: right;
+}
+.circule-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    padding-left: 10px;
+}
+.top, .down{
+    margin-right: 4.5vw;
+    width: 30vw;
+    height: 28vh;
+}
+.login{
+    padding: 1vh;
+    align-self: flex-start;
+}
+[class*="polaroid-"]{
+    background-color: whitesmoke;
+    width: 30vw;
+    height: 54vh;
+    border-color: black;
+    border-style: groove;
+    border-width: 3px;
+    margin: 7vh;
+    display: flex;
+    flex-direction: column;
+}
+.polaroid-left{
+    transform: rotate(-10deg);
+    align-self: flex-start;
+}
+.polaroid-center{
+    align-self: center;
+}
+.polaroid-right{
+    transform: rotate(10deg);
+    align-items: flex-end;
+}
+.polaroid_img{
+    border-color: black;
+    width: 24vw;
+    height: 39vh;
+    align-self: center;
+    margin-top: 3vh;
+    background-image: url("../img/foda-se.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.polaroid_descricao{
+    height: 10vh;
+    border: none;
+    width: 24vw;
+    align-self: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+#ant,#prox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  #ant {
+    left: 10px;
+  }
+  #prox {
+    right: 10px;
+  }
+.car-container {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+.carrosel{
+    width: 50vw;
+    display: flex;
+    background-color: black;
+    margin: auto;
+    overflow: hidden;
+}
+.carrosel img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+}

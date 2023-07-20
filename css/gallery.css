@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 19px;
+    font-size: large;
+}
+.menu-sus{
+    width: 100px;
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.menu-sus a{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: large;
+}
+.menu-sus li{
+    padding-top: 5px;
+    text-align: center;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+.body img{  
+    padding-top: 7px;
+    padding-left: 1.2%; 
+    width: 23%;
+    height: 30%;
+}  
+.footer{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+}
+.pesquisa{
+    margin: auto;
+    width: 50%;
+}
+.pesquisa input{
+    width: 70%;
+}
+.pesquisa button{
+    padding-top: 2px;
+    width: 10%;
+    height: 20px;
+}
