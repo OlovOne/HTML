@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    border: solid 2px black;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    background-image: url('../img/muse.png');
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.player{
+    position: absolute;
+    width: 128px;
+    height: 400px;
+    bottom: 0;
+}
+.right{
+    transform: scaleX(-1);
+}

@@ -15,7 +15,7 @@ for(var i = 0;i<bd.length;i++){
 }
 
 if(isLogin){
-   window.location.href = "index2.html"
+   window.location.href = "page-principal.html"
 }else{
     alert("Log in error. \n Email or Passaword by error.")
 }
