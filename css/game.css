@@ -3,6 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+.menu{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 19px;
+    font-size: large;
+}
+.menu-sus{
+    width: 100px;
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.menu-sus a{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: large;
+}
+.menu-sus li{
+    padding-top: 5px;
+    text-align: center;
+}
 .conteiner{
     border: solid 2px black;
     margin: 0 auto;
@@ -13,6 +43,7 @@
     background-repeat: repeat;
     background-size: cover;
     overflow: hidden;
+    margin-top: 70px;
 }
 .player{
     position: absolute;

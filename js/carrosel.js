@@ -1,4 +1,4 @@
-var carImgs = document.querySelectorAll('#carrossel img');
+var carImgs = document.querySelectorAll('#carrosel img');
 var ImgAtual = 0;
 
 function ProximaImagem() {

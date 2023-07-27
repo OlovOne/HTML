@@ -1,18 +1,37 @@
 window.onload = gallery();
-var bd =[ {picture: "img/back 1.jpg", name: "abate 1"},
-          {picture: "img/back 2.jpg", name: "abate 2"},
-          {picture: "img/back 3.jpg", name: "abate 3"},
-          {picture: "img/back 4.jpg", name: "abate 4"},
-          {picture: "img/back 5.jpg", name: "abate 5"},
-          {picture: "img/back 6.jpg", name: "abate 6"},
-          {picture: "img/back 7.jpg", name: "abate 7"},
-          {picture: "img/back 8.jpg", name: "abate 8"} 
+var bd =[ {picture: "img/Gallery/ga- (1).jpeg", name: "pa"},
+          {picture: "img/Gallery/ga- (2).jpeg", name: "rafael"},
+          {picture: "img/Gallery/ga- (3).jpeg", name: "roberto"},
+          {picture: "img/Gallery/ga- (4).jpeg", name: "sentipeia"},
+          {picture: "img/Gallery/ga- (5).jpeg", name: "stardew valley"},
+          {picture: "img/Gallery/ga- (6).jpeg", name: "motivação"},
+          {picture: "img/Gallery/ga- (7).jpeg", name: "urso polar"},
+          {picture: "img/Gallery/ga- (8).jpeg", name: "copa"},
+          {picture: "img/Gallery/ga- (9).jpeg", name: "morto"}, 
+          {picture: "img/Gallery/ga- (10).jpeg", name: "liberdade"}, 
+          {picture: "img/Gallery/ga- (11).jpeg", name: "lula"}, 
+          {picture: "img/Gallery/ga- (12).jpeg", name: "tardin"}, 
+          {picture: "img/Gallery/ga- (13).jpeg", name: "gabriel"}, 
+          {picture: "img/Gallery/ga- (14).jpeg", name: "ianne"}, 
+          {picture: "img/Gallery/ga- (15).jpeg", name: "igreja"}, 
+          {picture: "img/Gallery/ga- (16).jpeg", name: "joel"}, 
+          {picture: "img/Gallery/ga- (17).jpeg", name: "burro"}, 
+          {picture: "img/Gallery/ga- (18).jpeg", name: "eu e rafael"}, 
+          {picture: "img/Gallery/ga- (19).jpeg", name: "backrooms"}, 
+          {picture: "img/Gallery/ga- (20).jpeg", name: "fofoca"}, 
+          {picture: "img/Gallery/ga- (21).jpeg", name: "fofoca"}, 
+          {picture: "img/Gallery/ga- (22).jpeg", name: "fofoca"}, 
+          {picture: "img/Gallery/ga- (23).jpeg", name: "fofoca"}, 
+          {picture: "img/Gallery/ga- (24).jpeg", name: "fofoca"}, 
+          {picture: "img/Gallery/ga- (25).jpeg", name: "fofoca"}, 
+          {picture: "img/Gallery/ga- (26).jpeg", name: "fofoca"}, 
+          {picture: "img/Gallery/ga- (27).jpeg", name: "fofoca"}
     ];
 function gallery(){
     var body = document.getElementById('body');
-    for(var i = 1; i<9;i++){
+    for(var i = 1; i<28;i++){
         var img = document.createElement('img');
-        img.src = "img/back "+i+".jpg"
+        img.src = "img/Gallery/ga- ("+i+").jpeg"
         body.appendChild(img);
     }
 }

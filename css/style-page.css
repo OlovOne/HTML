@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: block;
+}
 .menu{
     width: 100vw;
     height: 60px;
@@ -44,13 +47,19 @@ a{
     align-items: flex-end;
     background-color: black;
 }
+.middle-bottom{
+    width: 100vw;
+    display: flex;
+    background-color: black;
+}
 .title{
     color: white;
     align-self: flex-start;
     position: absolute;
     margin: 15vh;
-    margin-left: 7.5vw;
+    margin-left: 20vw;
     text-align: center;
+    font-size: xx-large;
 }
 .circule-img{
     width: 15vw;
@@ -82,6 +91,7 @@ a{
     margin: 7vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .polaroid-left{
     transform: rotate(-10deg);
@@ -100,9 +110,11 @@ a{
     height: 39vh;
     align-self: center;
     margin-top: 3vh;
-    background-image: url("../img/foda-se.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    border: 7px solid;
+}
+.polaroid_img img{
+    width: 100%;
+    height: 100%;
 }
 .polaroid_descricao{
     height: 10vh;
@@ -129,18 +141,21 @@ a{
     right: 10px;
   }
 .car-container {
-    width: 500px;
-    height: 300px;
+    width: 80vw;
+    height: 600px;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
+    margin-top: 50px;
   }
 .carrosel{
-    width: 50vw;
+    width: 100%;
+    height: 100%;
     display: flex;
     background-color: black;
     margin: auto;
     overflow: hidden;
+    border-radius: 10px;
 }
 .carrosel img{
     width: 100%;
